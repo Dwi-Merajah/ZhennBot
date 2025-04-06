@@ -2,6 +2,20 @@
     require('dotenv').config();
     require('events').EventEmitter.defaultMaxListeners = 500;
     require("./lib/config.js");
+    const { makeTelegramBot, Scandir, smsg } = require("./lib/serialize");
+    const path = require('path');
+    const Func = require('./lib/functions');
+    const { BOT_TOKEN } = process.env;
+    const env = require("./config.json");
+    const machine = new(require('./lib/database/localdb'))(env.database);
+    const handler = require('./handler');
+    const chalk = require('chalk')
+    
+    const handler = require('./handler');
+    const conn = makeTelegramBot(BOT_TOKEN);
+    if (BOT_TOKEN) {
+     console.log(chalk.cyan("🚀 Bot Telegram Connected!"));
+    }
     
     global.db = {
         users: [],
