@@ -1,0 +1,15 @@
+{
+  "botname": "ZhennKeys",
+  "owner": "ZhennSweet",
+  "OWNER_ID": 8100264721,
+  "max_upload": 50,
+  "max_upload_free": 25,
+  "database": "database",
+  "evaluate_chars": ["=>", "~>", "<", ">", "$"],
+  "setting": {
+    "multiprefix": true,
+    "prefix": [".", "#", "!", "/"],
+    "onlyprefix": "."
+  },
+  "limit": 30
+}

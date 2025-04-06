@@ -1,0 +1,26 @@
+{
+  "name": "Zhennkeys",
+  "version": "1.0.0",
+  "description": "Telegram bot with file handling functionalities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "mime-types": "^2.1.35",
+    "file-type": "^16.0.0",
+    "node-telegram-bot-api": "^latest",
+    "dotenv": "^16.0.0",
+    "chalk": "^4.1.2",
+    "syntax-error": "^1.4.0",
+    "moment-timezone": "^0.5.34",
+    "cfonts": "3.1.1",
+    "cheerio": "^1.0.0-rc.12", 
+    "form-data": "^4.0.0",    
+    "node-cron": "^3.0.0",
+    "booru": "^1.0.2"     
+  },
+  "author": "Nyoman Developers",
+  "license": "ISC"
+}
